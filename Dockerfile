@@ -1,8 +1,8 @@
 # To build the docker container run:
-# docker build --tag odp_demo:latest .
+# docker build --tag  wdpr_demo_nodejs:latest .
 #
 # To run the newly built docker image
-# docker run --rm -p 8000:8000 -it --name odp_demo odp_demo_nodejs:latest
+# docker run --rm -p 8000:8000 -it --name  wdpr_demo_nodejs wdpr_demo_nodejs:latest
 
 FROM node:10.15-alpine
 WORKDIR /root/
